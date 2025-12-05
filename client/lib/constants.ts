@@ -157,23 +157,23 @@ export const TESTIMONIALS = [
 export const TEAM_MEMBERS = [
   {
     id: 1,
-    name: "Chef Marco Rossi",
-    role: "Chef Ejecutivo",
-    bio: "Con 25 años de experiencia en cocina mediterránea, Marco ha creado el alma culinaria de La Buena Mesa",
+    name: "Juan Usuga",
+    role: "Chef de Carne",
+    bio: "Maestro en el arte de asar carne a la llanera. Con 20 años de experiencia en la gastronomía llanera.",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
   },
   {
     id: 2,
-    name: "Ana Martínez",
+    name: "María Usuga",
     role: "Propietaria",
-    bio: "Apasionada por la gastronomía y comprometida con ofrecer la mejor experiencia a nuestros clientes",
+    bio: "Apasionada por las tradiciones llaneras y comprometida con ofrecer la mejor experiencia culinaria",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
   },
   {
     id: 3,
-    name: "Diego Fernández",
-    role: "Chef Pastelero",
-    bio: "Especializado en postres mediterráneos, Diego crea dulces que son una verdadera obra de arte",
+    name: "Luis González",
+    role: "Parrillero",
+    bio: "Especialista en parrilla llanera, perfecciona cada corte de carne con técnicas tradicionales",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
   },
 ];
