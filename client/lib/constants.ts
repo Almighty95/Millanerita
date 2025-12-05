@@ -1,9 +1,9 @@
-export const RESTAURANT_NAME = "La Buena Mesa";
-export const RESTAURANT_TAGLINE = "Cocina Mediterránea Contemporánea";
-export const RESTAURANT_PHONE = "+34 912 345 678";
-export const RESTAURANT_WHATSAPP = "+34 612 345 678";
-export const RESTAURANT_EMAIL = "info@labuenamesaproperty.com";
-export const RESTAURANT_ADDRESS = "Calle Gran Vía 42, Madrid, España";
+export const RESTAURANT_NAME = "Mi Llanerita";
+export const RESTAURANT_TAGLINE = "Carne a la Llanera Auténtica";
+export const RESTAURANT_PHONE = "+57 313 8850640";
+export const RESTAURANT_WHATSAPP = "+573138850640";
+export const RESTAURANT_EMAIL = "info@millanerita.com";
+export const RESTAURANT_ADDRESS = "Los Llanos, Colombia";
 
 export const BUSINESS_HOURS = [
   { day: "Lunes", hours: "Cerrado" },
