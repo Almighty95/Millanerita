@@ -18,7 +18,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-playfair font-bold mb-4">{RESTAURANT_NAME}</h3>
             <p className="text-sm text-primary-foreground/80 mb-4">
-              Cocina mediterránea contemporánea con los mejores ingredientes frescos y una experiencia culinaria excepcional.
+              Auténtica carne a la llanera con los mejores cortes, preparados con técnicas tradicionales y pasión.
             </p>
             <div className="flex gap-4">
               <a
