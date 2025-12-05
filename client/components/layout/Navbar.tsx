@@ -13,7 +13,7 @@ export default function Navbar() {
     { href: "/galeria", label: "Galería" },
   ];
 
-  const whatsappMessage = encodeURIComponent("Hola, me gustaría información sobre La Buena Mesa");
+  const whatsappMessage = encodeURIComponent("Hola, me gustaría hacer un pedido en Mi Llanerita");
   const whatsappLink = `https://wa.me/${RESTAURANT_WHATSAPP.replace(/\D/g, "")}?text=${whatsappMessage}`;
 
   return (
