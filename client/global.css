@@ -12,51 +12,51 @@
    * A different format will require also updating the theme in tailwind.config.ts.
   */
   :root {
-    --background: 45 14% 97%;
-    --foreground: 30 10% 12%;
+    --background: 35 35% 96%;
+    --foreground: 15 40% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 30 10% 12%;
+    --card-foreground: 15 40% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 30 10% 12%;
+    --popover-foreground: 15 40% 20%;
 
-    --primary: 30 10% 12%;
-    --primary-foreground: 45 14% 97%;
+    --primary: 15 65% 40%;
+    --primary-foreground: 35 35% 96%;
 
-    --secondary: 35 40% 65%;
+    --secondary: 25 60% 45%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 30 10% 85%;
-    --muted-foreground: 30 5% 45%;
+    --muted: 15 20% 80%;
+    --muted-foreground: 15 10% 45%;
 
-    --accent: 20 60% 50%;
+    --accent: 8 75% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 30 10% 90%;
+    --border: 15 40% 88%;
     --input: 0 0% 100%;
-    --ring: 35 40% 65%;
+    --ring: 8 75% 55%;
 
     --radius: 0.75rem;
 
-    --sidebar-background: 45 14% 97%;
+    --sidebar-background: 35 35% 96%;
 
-    --sidebar-foreground: 30 10% 12%;
+    --sidebar-foreground: 15 40% 20%;
 
-    --sidebar-primary: 30 10% 12%;
+    --sidebar-primary: 15 65% 40%;
 
-    --sidebar-primary-foreground: 45 14% 97%;
+    --sidebar-primary-foreground: 35 35% 96%;
 
-    --sidebar-accent: 35 40% 65%;
+    --sidebar-accent: 8 75% 55%;
 
     --sidebar-accent-foreground: 0 0% 100%;
 
-    --sidebar-border: 30 10% 85%;
+    --sidebar-border: 15 40% 85%;
 
-    --sidebar-ring: 35 40% 65%;
+    --sidebar-ring: 8 75% 55%;
   }
 
   .dark {
