@@ -2,7 +2,7 @@ import Layout from "@/components/layout/Layout";
 import Hero from "@/components/sections/Hero";
 import Welcome from "@/components/sections/Welcome";
 import FeaturedDishes from "@/components/sections/FeaturedDishes";
-import Testimonials from "@/components/sections/Testimonials";
+import Gallery from "@/components/sections/Gallery";
 import Location from "@/components/sections/Location";
 
 export default function Index() {
@@ -11,7 +11,7 @@ export default function Index() {
       <Hero />
       <Welcome />
       <FeaturedDishes />
-      <Testimonials />
+      <Gallery />
       <Location />
     </Layout>
   );
