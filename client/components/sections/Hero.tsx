@@ -9,37 +9,37 @@ export default function Hero() {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage:
-            "url(https://images.unsplash.com/photo-1504674900152-b8b27e3a54bc?w=1600&h=900&fit=crop)",
+            "url(https://images.unsplash.com/photo-1555939594-58d7cb561e1f?w=1600&h=900&fit=crop)",
         }}
       >
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-black/50" />
       </div>
 
       {/* Content */}
       <div className="relative z-10 text-center text-white max-w-4xl px-4 md:px-8">
         <h1 className="font-playfair text-5xl md:text-7xl font-bold mb-4">
-          La Buena Mesa
+          Mi Llanerita
         </h1>
         <p className="text-xl md:text-2xl mb-8 text-white/90">
-          Cocina Mediterránea Contemporánea
+          Carne a la Llanera Auténtica
         </p>
         <p className="text-lg md:text-xl mb-12 text-white/80 max-w-2xl mx-auto">
-          Descubre una experiencia culinaria excepcional con los mejores
-          ingredientes frescos y una gastronomía que te enamorará
+          Experiencia culinaria llanera con los mejores cortes de carne,
+          preparados con técnicas tradicionales y ingredientes frescos
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
           <Link
-            to="/reservas"
+            to="/menu"
             className="px-8 py-3 bg-accent text-accent-foreground rounded-lg font-semibold hover:bg-accent/90 transition-all transform hover:scale-105"
           >
-            Reservar Mesa
+            Ver Menú
           </Link>
           <Link
-            to="/menu"
+            to="/nosotros"
             className="px-8 py-3 border-2 border-white text-white rounded-lg font-semibold hover:bg-white/10 transition-colors"
           >
-            Ver Menú
+            Sobre Nosotros
           </Link>
         </div>
 

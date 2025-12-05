@@ -10,13 +10,12 @@ export default function Navbar() {
     { href: "/", label: "Inicio" },
     { href: "/nosotros", label: "Nosotros" },
     { href: "/menu", label: "Menú" },
-    { href: "/tienda", label: "Tienda" },
     { href: "/galeria", label: "Galería" },
-    { href: "/contacto", label: "Contacto" },
-    { href: "/reservas", label: "Reservas" },
   ];
 
-  const whatsappMessage = encodeURIComponent("Hola, me gustaría información sobre La Buena Mesa");
+  const whatsappMessage = encodeURIComponent(
+    "Hola, me gustaría hacer un pedido en Mi Llanerita",
+  );
   const whatsappLink = `https://wa.me/${RESTAURANT_WHATSAPP.replace(/\D/g, "")}?text=${whatsappMessage}`;
 
   return (
@@ -26,7 +25,9 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">LBM</span>
+              <span className="text-primary-foreground font-bold text-lg">
+                LBM
+              </span>
             </div>
             <span className="font-playfair font-bold text-primary hidden sm:inline text-lg">
               {RESTAURANT_NAME}

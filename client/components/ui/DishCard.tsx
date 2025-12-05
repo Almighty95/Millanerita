@@ -2,6 +2,7 @@ import { MenuItem } from "@/lib/types";
 
 interface DishCardProps {
   dish: MenuItem;
+  onAddToCart?: (dish: MenuItem) => void;
 }
 
 const tagLabels: Record<string, string> = {
@@ -12,7 +13,7 @@ const tagLabels: Record<string, string> = {
   spicy: "Picante",
 };
 
-export default function DishCard({ dish }: DishCardProps) {
+export default function DishCard({ dish, onAddToCart }: DishCardProps) {
   return (
     <div className="bg-card rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 group">
       {/* Image Container */}
@@ -43,9 +44,12 @@ export default function DishCard({ dish }: DishCardProps) {
 
         <div className="flex justify-between items-center">
           <span className="text-2xl font-bold text-accent">
-            €{dish.price.toFixed(2)}
+            ${dish.price.toLocaleString()}
           </span>
-          <button className="px-4 py-2 bg-primary text-primary-foreground rounded-lg font-semibold text-sm hover:bg-primary/90 transition-colors">
+          <button
+            onClick={() => onAddToCart?.(dish)}
+            className="px-4 py-2 bg-primary text-primary-foreground rounded-lg font-semibold text-sm hover:bg-primary/90 transition-colors"
+          >
             Añadir
           </button>
         </div>
