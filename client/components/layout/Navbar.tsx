@@ -10,10 +10,7 @@ export default function Navbar() {
     { href: "/", label: "Inicio" },
     { href: "/nosotros", label: "Nosotros" },
     { href: "/menu", label: "Menú" },
-    { href: "/tienda", label: "Tienda" },
     { href: "/galeria", label: "Galería" },
-    { href: "/contacto", label: "Contacto" },
-    { href: "/reservas", label: "Reservas" },
   ];
 
   const whatsappMessage = encodeURIComponent("Hola, me gustaría información sobre La Buena Mesa");
