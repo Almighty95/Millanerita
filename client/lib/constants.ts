@@ -133,22 +133,22 @@ export const FEATURED_DISHES = MENU_ITEMS.slice(0, 6);
 export const TESTIMONIALS = [
   {
     id: 1,
-    name: "María García",
-    text: "Una experiencia culinaria excepcional. La comida estaba deliciosa y el servicio impecable.",
-    rating: 5,
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop",
-  },
-  {
-    id: 2,
-    name: "Juan López",
-    text: "El mejor restaurante donde he comido. Los ingredientes frescos se notan en cada plato.",
+    name: "Carlos Pérez",
+    text: "La mejor carne a la llanera que he probado. Autenticidad en cada bocado. ¡Excelente!",
     rating: 5,
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop",
   },
   {
+    id: 2,
+    name: "Patricia Ruiz",
+    text: "Mi Llanerita es una joya. La carne es fresca, las arepas deliciosas y el servicio de primera.",
+    rating: 5,
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop",
+  },
+  {
     id: 3,
-    name: "Carmen Rodríguez",
-    text: "Ambiente acogedor, comida exquisita y precios justos. ¡Definitivamente volveré!",
+    name: "Roberto López",
+    text: "Definitivamente el mejor lugar para comer carne llanera. Vuelvo cada semana sin falta.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop",
   },
