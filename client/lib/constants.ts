@@ -6,9 +6,8 @@ export const RESTAURANT_EMAIL = "info@millanerita.com";
 export const RESTAURANT_ADDRESS = "Los Llanos, Colombia";
 
 export const BUSINESS_HOURS = [
-  { day: "Lunes", hours: "Cerrado" },
-  { day: "Martes - Domingo", hours: "12:00 - 23:00" },
-  { day: "Festivos", hours: "13:00 - 23:00" },
+  { day: "Lunes - Domingo", hours: "11:00 - 22:00" },
+  { day: "Festivos", hours: "11:00 - 23:00" },
 ];
 
 export const SOCIAL_MEDIA = {
