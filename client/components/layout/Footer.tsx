@@ -63,13 +63,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/galeria" className="hover:text-accent transition-colors">
-                  Galería
+                <Link to="/nosotros" className="hover:text-accent transition-colors">
+                  Nosotros
                 </Link>
               </li>
               <li>
-                <Link to="/reservas" className="hover:text-accent transition-colors">
-                  Reservas
+                <Link to="/galeria" className="hover:text-accent transition-colors">
+                  Galería
                 </Link>
               </li>
             </ul>
