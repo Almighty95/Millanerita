@@ -5,55 +5,64 @@ import { Link } from "react-router-dom";
 const allGalleryImages = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1555939594-58d7cb561e1f?w=600&h=600&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1555939594-58d7cb561e1f?w=600&h=600&fit=crop",
     title: "Carne a la Llanera",
     category: "Platos Principales",
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&h=600&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&h=600&fit=crop",
     title: "Carne Asada Premium",
     category: "Platos Principales",
   },
   {
     id: 3,
-    image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=600&h=600&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=600&h=600&fit=crop",
     title: "Pollo a la Parrilla",
     category: "Especialidades",
   },
   {
     id: 4,
-    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&h=600&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&h=600&fit=crop",
     title: "Acompañamientos Frescos",
     category: "Acompañamientos",
   },
   {
     id: 5,
-    image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&h=600&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&h=600&fit=crop",
     title: "Cortes Especiales",
     category: "Carnes",
   },
   {
     id: 6,
-    image: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&h=600&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&h=600&fit=crop",
     title: "Selección de Carnes",
     category: "Carnes Premium",
   },
   {
     id: 7,
-    image: "https://images.unsplash.com/photo-1582269255471-e582cdae6825?w=600&h=600&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1582269255471-e582cdae6825?w=600&h=600&fit=crop",
     title: "Arepas Caseras",
     category: "Acompañamientos",
   },
   {
     id: 8,
-    image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&h=600&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&h=600&fit=crop",
     title: "Ensalada Llanera",
     category: "Entrada",
   },
   {
     id: 9,
-    image: "https://images.unsplash.com/photo-1488477181946-6428a0291840?w=600&h=600&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1488477181946-6428a0291840?w=600&h=600&fit=crop",
     title: "Yuca Frita",
     category: "Acompañamientos",
   },

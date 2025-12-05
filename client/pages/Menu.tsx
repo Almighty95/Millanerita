@@ -16,8 +16,19 @@ const categoryLabels: Record<Category, string> = {
 };
 
 export default function Menu() {
-  const [selectedCategory, setSelectedCategory] = useState<Category | "all">("all");
-  const { cart, addToCart, removeFromCart, updateQuantity, getTotalPrice, getTotalItems, sendToWhatsApp, clearCart } = useCart();
+  const [selectedCategory, setSelectedCategory] = useState<Category | "all">(
+    "all",
+  );
+  const {
+    cart,
+    addToCart,
+    removeFromCart,
+    updateQuantity,
+    getTotalPrice,
+    getTotalItems,
+    sendToWhatsApp,
+    clearCart,
+  } = useCart();
 
   const categories: Array<Category | "all"> = [
     "all",
@@ -50,8 +61,8 @@ export default function Menu() {
                   Nuestro Menú
                 </h1>
                 <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-                  Descubre nuestra selección de platos llaneros preparados con los
-                  mejores ingredientes
+                  Descubre nuestra selección de platos llaneros preparados con
+                  los mejores ingredientes
                 </p>
               </div>
 
@@ -75,11 +86,7 @@ export default function Menu() {
               {/* Dishes Grid */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {filteredDishes.map((dish) => (
-                  <DishCard
-                    key={dish.id}
-                    dish={dish}
-                    onAddToCart={addToCart}
-                  />
+                  <DishCard key={dish.id} dish={dish} onAddToCart={addToCart} />
                 ))}
               </div>
 
@@ -126,7 +133,10 @@ export default function Menu() {
                               min="1"
                               value={item.quantity}
                               onChange={(e) =>
-                                updateQuantity(item.id, parseInt(e.target.value))
+                                updateQuantity(
+                                  item.id,
+                                  parseInt(e.target.value),
+                                )
                               }
                               className="w-12 h-8 text-center border border-border rounded text-sm"
                             />
@@ -151,7 +161,9 @@ export default function Menu() {
                         <span className="font-semibold">{getTotalItems()}</span>
                       </div>
                       <div className="flex justify-between text-lg">
-                        <span className="font-bold text-foreground">Total:</span>
+                        <span className="font-bold text-foreground">
+                          Total:
+                        </span>
                         <span className="font-bold text-accent text-xl">
                           ${getTotalPrice().toLocaleString()}
                         </span>

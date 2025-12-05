@@ -25,19 +25,23 @@ export default function Nosotros() {
                   Mi Llanerita
                 </h1>
                 <p className="text-xl text-muted-foreground mb-6 leading-relaxed">
-                  Mi Llanerita es más que un restaurante, es una experiencia culinaria que
-                  trae lo auténtico de los Llanos Orientales de Colombia directamente a tu mesa.
+                  Mi Llanerita es más que un restaurante, es una experiencia
+                  culinaria que trae lo auténtico de los Llanos Orientales de
+                  Colombia directamente a tu mesa.
                 </p>
                 <p className="text-lg text-foreground mb-6 leading-relaxed">
-                  Somos apasionados por la carne a la llanera, preparada con las mejores
-                  técnicas tradicionales y los ingredientes más frescos. Cada corte, cada arepa,
-                  cada acompañamiento está hecho con dedicación y amor para ofrecerte una
-                  experiencia gastronómica inolvidable que celebra la riqueza culinaria de nuestra región.
+                  Somos apasionados por la carne a la llanera, preparada con las
+                  mejores técnicas tradicionales y los ingredientes más frescos.
+                  Cada corte, cada arepa, cada acompañamiento está hecho con
+                  dedicación y amor para ofrecerte una experiencia gastronómica
+                  inolvidable que celebra la riqueza culinaria de nuestra
+                  región.
                 </p>
                 <p className="text-lg text-foreground leading-relaxed">
-                  Nuestra misión es preservar y compartir las tradiciones culinarias llaneras,
-                  manteniendo la autenticidad del sabor mientras ofrecemos un servicio de calidad
-                  en un ambiente acogedor.
+                  Nuestra misión es preservar y compartir las tradiciones
+                  culinarias llaneras, manteniendo la autenticidad del sabor
+                  mientras ofrecemos un servicio de calidad en un ambiente
+                  acogedor.
                 </p>
               </div>
             </div>
@@ -55,20 +59,24 @@ export default function Nosotros() {
                 <div className="w-14 h-14 bg-accent/20 rounded-lg flex items-center justify-center mb-4">
                   <span className="text-2xl">🔥</span>
                 </div>
-                <h3 className="text-2xl font-bold text-primary mb-3">Autenticidad</h3>
+                <h3 className="text-2xl font-bold text-primary mb-3">
+                  Autenticidad
+                </h3>
                 <p className="text-muted-foreground">
-                  Respetamos las recetas y técnicas tradicionales de la cocina llanera,
-                  sin comprometer en la calidad ni el sabor.
+                  Respetamos las recetas y técnicas tradicionales de la cocina
+                  llanera, sin comprometer en la calidad ni el sabor.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
                 <div className="w-14 h-14 bg-accent/20 rounded-lg flex items-center justify-center mb-4">
                   <span className="text-2xl">🥩</span>
                 </div>
-                <h3 className="text-2xl font-bold text-primary mb-3">Calidad Premium</h3>
+                <h3 className="text-2xl font-bold text-primary mb-3">
+                  Calidad Premium
+                </h3>
                 <p className="text-muted-foreground">
-                  Solo utilizamos cortes de carne seleccionados, frescos y de la mejor procedencia
-                  para garantizar el mejor sabor.
+                  Solo utilizamos cortes de carne seleccionados, frescos y de la
+                  mejor procedencia para garantizar el mejor sabor.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
@@ -77,8 +85,8 @@ export default function Nosotros() {
                 </div>
                 <h3 className="text-2xl font-bold text-primary mb-3">Pasión</h3>
                 <p className="text-muted-foreground">
-                  Cada plato que preparamos es hecho con dedicación y amor, pensando en la
-                  satisfacción y felicidad de nuestros clientes.
+                  Cada plato que preparamos es hecho con dedicación y amor,
+                  pensando en la satisfacción y felicidad de nuestros clientes.
                 </p>
               </div>
             </div>
@@ -106,7 +114,9 @@ export default function Nosotros() {
                     <h3 className="text-2xl font-bold text-primary mb-2">
                       {member.name}
                     </h3>
-                    <p className="text-accent font-semibold mb-3">{member.role}</p>
+                    <p className="text-accent font-semibold mb-3">
+                      {member.role}
+                    </p>
                     <p className="text-muted-foreground">{member.bio}</p>
                   </div>
                 </div>

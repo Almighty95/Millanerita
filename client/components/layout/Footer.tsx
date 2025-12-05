@@ -1,5 +1,12 @@
 import { Link } from "react-router-dom";
-import { Mail, MapPin, Phone, Instagram, Facebook, Twitter } from "lucide-react";
+import {
+  Mail,
+  MapPin,
+  Phone,
+  Instagram,
+  Facebook,
+  Twitter,
+} from "lucide-react";
 import {
   RESTAURANT_NAME,
   RESTAURANT_ADDRESS,
@@ -16,9 +23,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* About */}
           <div>
-            <h3 className="text-xl font-playfair font-bold mb-4">{RESTAURANT_NAME}</h3>
+            <h3 className="text-xl font-playfair font-bold mb-4">
+              {RESTAURANT_NAME}
+            </h3>
             <p className="text-sm text-primary-foreground/80 mb-4">
-              Auténtica carne a la llanera con los mejores cortes, preparados con técnicas tradicionales y pasión.
+              Auténtica carne a la llanera con los mejores cortes, preparados
+              con técnicas tradicionales y pasión.
             </p>
             <div className="flex gap-4">
               <a
@@ -58,17 +68,26 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/menu" className="hover:text-accent transition-colors">
+                <Link
+                  to="/menu"
+                  className="hover:text-accent transition-colors"
+                >
                   Menú
                 </Link>
               </li>
               <li>
-                <Link to="/nosotros" className="hover:text-accent transition-colors">
+                <Link
+                  to="/nosotros"
+                  className="hover:text-accent transition-colors"
+                >
                   Nosotros
                 </Link>
               </li>
               <li>
-                <Link to="/galeria" className="hover:text-accent transition-colors">
+                <Link
+                  to="/galeria"
+                  className="hover:text-accent transition-colors"
+                >
                   Galería
                 </Link>
               </li>

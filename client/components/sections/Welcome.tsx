@@ -20,14 +20,14 @@ export default function Welcome() {
               Bienvenidos a Mi Llanerita
             </h2>
             <p className="text-lg text-foreground/80 mb-6">
-              En Mi Llanerita creemos que la auténtica carne a la llanera es un arte
-              que une personas, crea momentos memorables y celebra los sabores
-              tradicionales de la cocina llanera colombiana.
+              En Mi Llanerita creemos que la auténtica carne a la llanera es un
+              arte que une personas, crea momentos memorables y celebra los
+              sabores tradicionales de la cocina llanera colombiana.
             </p>
             <p className="text-lg text-foreground/80 mb-8">
-              Nuestro equipo de expertos parrilleros selecciona los mejores cortes
-              de carne fresca para crear platos que deleitarán tu paladar y te
-              transportarán a la esencia de los Llanos.
+              Nuestro equipo de expertos parrilleros selecciona los mejores
+              cortes de carne fresca para crear platos que deleitarán tu paladar
+              y te transportarán a la esencia de los Llanos.
             </p>
             <Link
               to="/nosotros"
